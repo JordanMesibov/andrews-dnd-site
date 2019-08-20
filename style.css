@@ -4,9 +4,7 @@
 
 }
 
-.outer
-
-{
+.outer  {
 
 /* width:100%;
 
@@ -73,7 +71,7 @@ textarea {
 }
 
 body {
-    background-color: #2B4141;
+    background-color: rgb(2, 36, 36);
     color: #C8C2AE;
 }
 
@@ -146,4 +144,8 @@ a:hover {
 
 #dieDisplay {
     font-size: 50px;
+}
+
+.my-footer {
+    margin-top: 50px;
 }
