@@ -1,0 +1,149 @@
+.main-body {
+
+    margin-top: 8vh;
+
+}
+
+.outer
+
+{
+
+/* width:100%;
+
+text-align: center; */
+
+}
+
+
+
+.inner
+
+{
+
+display: inline-block;
+
+}
+
+
+
+.left-column {
+
+    margin-top: 3vh;
+
+}
+
+
+
+.weapons {
+
+    margin-top: 3vh;
+
+}
+
+textarea {
+    overflow-y: scroll;
+    height: 700px;
+    
+}
+
+.armor-class {
+    font-size: 14px;
+}
+
+.be-sure {
+    font-size: 9px;
+    font-style: italic;
+}
+
+#tiefling-pic {
+    max-height: 60vh;
+}
+
+
+.armor-stats {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .armor-stats {
+        font-size: 12px;
+    }
+
+}
+
+body {
+    background-color: #2B4141;
+    color: #C8C2AE;
+}
+
+.dropdown-toggle {
+    background-color: #EEC584;
+    color: #2B4141;
+}
+
+.dropdown-toggle:hover {
+    background-color: #E0AC9D;
+}
+
+a {
+    text-decoration: none;
+    color: #E0AC9D;
+}
+
+a:hover {
+    color: #EEC584;
+}
+
+.navbar {
+    background-color: #EEC584;
+    color: #2B4141;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #2B4141;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 744px) {
+    .navbar {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .navbar {
+        font-size: 10px;
+    }
+}
+
+.footer {
+
+    height: 100px;
+    background-color: black;
+    max-width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.dice {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.die:hover {
+    cursor: pointer;
+}
+
+.die {
+    margin-top: 5px;
+}
+
+.die:hover {
+    background-color: #E0AC9D;
+}
+
+#dieDisplay {
+    font-size: 50px;
+}
